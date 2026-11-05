@@ -197,14 +197,20 @@
         siteMonitorType: http
 - Network:
     - Pi-hole 1:
-        href: https://hole1.echoinggreen.net/admin
-        siteMonitor: https://hole1.echoinggreen.net/admin
+        href: https://hole1.echoinggreen.net/admin/
+        siteMonitor: https://hole1.echoinggreen.net/admin/
         description: DNS
         icon: si-pihole
         siteMonitorType: http
     - Pi-hole 2:
-        href: https://hole2.echoinggreen.net/admin
-        siteMonitor: https://hole2.echoinggreen.net/admin
+        href: https://hole2.echoinggreen.net/admin/
+        siteMonitor: https://hole2.echoinggreen.net/admin/
+        description: DNS
+        icon: si-pihole
+        siteMonitorType: http
+    - Pi-hole 3:
+        href: https://hole3.echoinggreen.net/admin/
+        siteMonitor: https://hole3.echoinggreen.net/admin/
         description: DNS
         icon: si-pihole
         siteMonitorType: http
