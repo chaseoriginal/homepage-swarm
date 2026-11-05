@@ -5,7 +5,7 @@ Self-hosted start page / dashboard for the fleet.
 | | |
 |---|---|
 | Portainer host | ore-dock-110-1 |
-| Portainer stack id | (assigned on deploy) |
+| Portainer stack id | 37 |
 | Endpoint | 3 (local swarm 110-1) |
 | Swarm | True |
 | Live service | `svc:homepage-swarm_homepage` |
@@ -38,10 +38,20 @@ live status monitors, plus bookmarks. It runs behind a built-in login gate
   The named volume is declared with an explicit `name:`, because Docker Swarm
   prefixes a plain named volume with the stack name and a rename would mount
   a fresh EMPTY volume.
-- `config/` - the initial seed of the Homepage config directory
-  (`services.yaml`, `bookmarks.yaml`). These are copied into the
+- `config/` - the seed of the Homepage config directory (`services.yaml`,
+  `bookmarks.yaml`, `docker.yaml`). These are copied into the
   `homepage-swarm_config` volume on the node at deploy time. After that the
   volume is the live copy and Homepage's own file layout applies.
+- `config/docker.yaml` - the Docker instance definition. `swarm: true` is
+  required, otherwise Homepage lists containers instead of swarm services and
+  the status widgets come back empty. `socket:` (not host/port) is used because
+  the container has the node's socket mounted in.
+
+  A service only gets a Docker status widget if it names both `server:` and
+  `container:`. With `swarm: true`, `container:` is the SWARM SERVICE NAME
+  (`homepage-swarm_homepage`), not the container name
+  (`homepage-swarm_homepage.1.<taskid>`). The status map returned by
+  `/api/docker/statuses?server=local` is keyed by service name.
 - `.env.example` - placeholder only. The real values live in the Portainer
   stack environment and are deliberately NOT committed.
 
