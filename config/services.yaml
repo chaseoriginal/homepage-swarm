@@ -5,6 +5,8 @@
         description: myplex (swarm 110-1)
         icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/plex.png
         siteMonitorType: http
+        server: local
+        container: myplex-swarm_plex
     - Organizr:
         href: http://10.77.110.80
         siteMonitor: http://10.77.110.80
@@ -24,6 +26,8 @@
         description: swarm 110-1
         icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/calibre-web.png
         siteMonitorType: http
+        server: local
+        container: calibre-web-swarm_calibre-web
 - Servarr:
     - Radarr:
         href: http://10.77.110.80:7878
@@ -66,3 +70,5 @@
         description: this dashboard
         icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/homepage.png
         siteMonitorType: http
+        server: local
+        container: homepage-swarm_homepage

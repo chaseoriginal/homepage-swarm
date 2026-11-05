@@ -1,0 +1,6 @@
+# Docker instance definitions for Homepage's docker widgets.
+# The socket bind is the node-local /var/run/docker.sock on ore-dock-110-1,
+# which is a swarm MANAGER (the leader), so swarm service discovery works.
+local:
+  socket: /var/run/docker.sock
+  swarm: true
