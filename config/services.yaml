@@ -1,74 +1,222 @@
 - Media:
     - Plex:
-        href: http://10.77.110.10:32400
-        siteMonitor: http://10.77.110.10:32400/web
+        href: https://myplex.echoinggreen.net
+        siteMonitor: https://myplex.echoinggreen.net/web
         description: myplex (swarm 110-1)
-        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/plex.png
+        icon: si-plex
         siteMonitorType: http
         server: local
         container: myplex-swarm_plex
-    - Organizr:
-        href: http://10.77.110.80
-        siteMonitor: http://10.77.110.80
-        description: organize (swarm 110-7)
-        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/organizr.png
-        siteMonitorType: http
     - Jellyfin:
-        href: http://10.77.110.50:8096
-        siteMonitor: http://10.77.110.50:8096
+        href: https://jelly.echoinggreen.net
+        siteMonitor: https://jelly.echoinggreen.net
         description: swarm 110-4
-        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/jellyfin.png
+        icon: si-jellyfin
+        siteMonitorType: http
+    - Tautulli:
+        href: https://tautulli.echoinggreen.net
+        siteMonitor: https://tautulli.echoinggreen.net
+        description: swarm 110-1
+        icon: si-tautulli
+        siteMonitorType: http
+    - Seerr:
+        href: https://requests.echoinggreen.net
+        siteMonitor: https://requests.echoinggreen.net
+        description: swarm 110-7
+        icon: si-overseerr
+        siteMonitorType: http
+    - Nextcloud:
+        href: https://nextcloud.echoinggreen.net
+        siteMonitor: https://nextcloud.echoinggreen.net
+        description: standalone
+        icon: si-nextcloud
+        siteMonitorType: http
+    - Photos:
+        href: https://photos.echoinggreen.net
+        siteMonitor: https://photos.echoinggreen.net
+        description: Immich
+        icon: si-immich
+        siteMonitorType: http
+    - Subsonic:
+        href: https://media.echoinggreen.net
+        siteMonitor: https://media.echoinggreen.net
+        description: swarm 110-4
+        icon: si-subsonic
+        siteMonitorType: http
+    - Organizr:
+        href: https://home.echoinggreen.net
+        siteMonitor: https://home.echoinggreen.net
+        description: existing dashboard
+        icon: si-organizr
         siteMonitorType: http
 - Books:
     - Calibre-Web:
-        href: http://10.77.110.10:8083
-        siteMonitor: http://10.77.110.10:8083
+        href: https://calibre-web.echoinggreen.net
+        siteMonitor: https://calibre-web.echoinggreen.net
         description: swarm 110-1
-        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/calibre-web.png
+        icon: si-calibreweb
         siteMonitorType: http
         server: local
         container: calibre-web-swarm_calibre-web
+    - Readarr:
+        href: https://readarr.echoinggreen.net
+        siteMonitor: https://readarr.echoinggreen.net
+        description: swarm 110-1
+        icon: si-readarr
+        siteMonitorType: http
 - Servarr:
     - Radarr:
-        href: http://10.77.110.80:7878
-        siteMonitor: http://10.77.110.80:7878
-        description: radarr4k (swarm 110-7)
-        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/radarr.png
+        href: https://radarr.echoinggreen.net
+        siteMonitor: https://radarr.echoinggreen.net
+        description: swarm 110-4
+        icon: si-radarr
         siteMonitorType: http
     - Sonarr:
-        href: http://10.77.110.80:8989
-        siteMonitor: http://10.77.110.80:8989
-        description: sonarr4k (swarm 110-7)
-        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/sonarr.png
+        href: https://sonarr.echoinggreen.net
+        siteMonitor: https://sonarr.echoinggreen.net
+        description: swarm 110-4
+        icon: si-sonarr
         siteMonitorType: http
     - Prowlarr:
-        href: http://10.77.110.80:9696
-        siteMonitor: http://10.77.110.80:9696
+        href: https://prowlarr.echoinggreen.net
+        siteMonitor: https://prowlarr.echoinggreen.net
         description: swarm 110-7
-        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/prowlarr.png
+        icon: si-prowlarr
         siteMonitorType: http
     - Bazarr:
-        href: http://10.77.110.80:6767
-        siteMonitor: http://10.77.110.80:6767
+        href: https://bazarr.echoinggreen.net
+        siteMonitor: https://bazarr.echoinggreen.net
         description: swarm 110-7
-        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/bazarr.png
+        icon: si-bazarr
         siteMonitorType: http
-    - Seerr:
-        href: http://10.77.110.70:5055
-        siteMonitor: http://10.77.110.70:5055
+    - Lidarr:
+        href: https://lidarr.echoinggreen.net
+        siteMonitor: https://lidarr.echoinggreen.net
+        description: swarm 110-1
+        icon: si-lidarr
+        siteMonitorType: http
+    - TDarr:
+        href: https://tdarr.echoinggreen.net
+        siteMonitor: https://tdarr.echoinggreen.net
         description: swarm 110-7
-        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/overseerr.png
+        icon: si-tdarr
+        siteMonitorType: http
+- Downloads:
+    - SABnzbd:
+        href: https://sab.echoinggreen.net
+        siteMonitor: https://sab.echoinggreen.net
+        description: swarm 110-7
+        icon: si-sabnzbd
+        siteMonitorType: http
+    - SABnzbd 4K:
+        href: https://sab4k.echoinggreen.net
+        siteMonitor: https://sab4k.echoinggreen.net
+        description: swarm 110-7
+        icon: si-sabnzbd
+        siteMonitorType: http
+    - qBittorrent:
+        href: https://qbit.echoinggreen.net
+        siteMonitor: https://qbit.echoinggreen.net
+        description: swarm 110-1
+        icon: si-qbittorrent
+        siteMonitorType: http
+    - Pinchflat:
+        href: https://pinch.echoinggreen.net
+        siteMonitor: https://pinch.echoinggreen.net
+        description: swarm 110-1
+        icon: si-handbrake
         siteMonitorType: http
 - Infrastructure:
     - Portainer:
-        href: https://10.77.110.10:9443
+        href: https://port-110-1.echoinggreen.net
         description: swarm 110-1
-        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/portainer.png
+        icon: si-portainer
     - Homepage:
-        href: http://10.77.110.10:3000
-        siteMonitor: http://10.77.110.10:3000
+        href: https://dash.echoinggreen.net
+        siteMonitor: https://dash.echoinggreen.net/api/healthcheck
         description: this dashboard
-        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/homepage.png
+        icon: si-homepage
         siteMonitorType: http
         server: local
         container: homepage-swarm_homepage
+    - Authentik:
+        href: https://auth.echoinggreen.net
+        siteMonitor: https://auth.echoinggreen.net
+        description: identity
+        icon: si-authentik
+        siteMonitorType: http
+    - Tracearr:
+        href: https://tracearr.echoinggreen.net
+        siteMonitor: https://tracearr.echoinggreen.net
+        description: swarm 110-4
+        icon: si-tmdb
+        siteMonitorType: http
+- Monitoring:
+    - Notifiarr:
+        href: https://notifiarr-w.echoinggreen.net
+        siteMonitor: https://notifiarr-w.echoinggreen.net
+        description: swarm 110-7
+        icon: si-tailext
+        siteMonitorType: http
+    - Graylog:
+        href: https://graylog.echoinggreen.net
+        siteMonitor: https://graylog.echoinggreen.net
+        description: swarm 110-1
+        icon: si-graylog
+        siteMonitorType: http
+    - Uptime Kuma:
+        href: https://status.echoinggreen.net
+        siteMonitor: https://status.echoinggreen.net
+        description: Azure-hosted
+        icon: si-uptimerobot
+        siteMonitorType: http
+    - Check MK:
+        href: https://monitor.echoinggreen.net
+        siteMonitor: https://monitor.echoinggreen.net
+        description: swarm 110-1
+        icon: si-checkmk
+        siteMonitorType: http
+    - Wazuh:
+        href: https://sec.echoinggreen.net
+        siteMonitor: https://sec.echoinggreen.net
+        description: swarm 110-1
+        icon: si-wazuh
+        siteMonitorType: http
+- Home:
+    - Home Assistant:
+        href: https://ha.echoinggreen.net
+        siteMonitor: https://ha.echoinggreen.net
+        description: smart home
+        icon: si-homeassistant
+        siteMonitorType: http
+    - Homebridge:
+        href: https://hb.echoinggreen.net
+        siteMonitor: https://hb.echoinggreen.net
+        description: smart home
+        icon: si-homebridge
+        siteMonitorType: http
+- Network:
+    - Pi-hole 1:
+        href: https://hole1.echoinggreen.net/admin
+        siteMonitor: https://hole1.echoinggreen.net/admin
+        description: DNS
+        icon: si-pihole
+        siteMonitorType: http
+    - Pi-hole 2:
+        href: https://hole2.echoinggreen.net/admin
+        siteMonitor: https://hole2.echoinggreen.net/admin
+        description: DNS
+        icon: si-pihole
+        siteMonitorType: http
+    - UniFi:
+        href: https://udm.echoinggreen.net
+        siteMonitor: https://udm.echoinggreen.net
+        description: gateway
+        icon: si-unifi
+        siteMonitorType: http
+    - Nginx Proxy Manager:
+        href: https://cus-proxy.echoinggreen.net
+        siteMonitor: https://cus-proxy.echoinggreen.net
+        description: Azure edge
+        icon: si-nginx
+        siteMonitorType: http

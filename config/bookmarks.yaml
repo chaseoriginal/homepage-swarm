@@ -1,9 +1,178 @@
-- Infrastructure:
-    - Fleet inventory:
-        - href: https://github.com/chaseoriginal
-          description: Git repos backing the fleet stacks
-      icon: github
-    - Portainer:
-        - href: https://10.77.110.10:9443
-          description: swarm manager, all three 110 swarms
-      icon: portainer
+# Mirrored from the Organizr V2 bookmark set (BOOKMARK-tabs table).
+# Regenerate with scripts/sync_organizr_bookmarks.py - do not hand-edit.
+
+- Media:
+    - Seerr:
+        - {"abbr": "SE", "href": "https://requests.echoinggreen.net", "icon": "si-overseerr"}
+    - W TripleE Tau:
+        - {"abbr": "WT", "href": "https://wtriplee-tau.echoinggreen.net/", "icon": "si-tautulli"}
+    - L TripleE Tau:
+        - {"abbr": "LT", "href": "https://ltriplee-tau.echoinggreen.net/", "icon": "si-tautulli"}
+    - Tautulli:
+        - {"abbr": "TA", "href": "https://tautulli.echoinggreen.net", "icon": "si-tautulli"}
+    - Plex:
+        - {"abbr": "PL", "href": "https://plex.echoinggreen.net", "icon": "si-plex"}
+    - JellyFin:
+        - {"abbr": "JE", "href": "https://jelly.echoinggreen.net", "icon": "si-jellyfin"}
+    - Nextcloud:
+        - {"abbr": "NE", "href": "https://nextcloud.echoinggreen.net", "icon": "si-nextcloud"}
+    - Photos:
+        - {"abbr": "PH", "href": "https://photos.echoinggreen.net", "icon": "si-immich"}
+    - Subsonic:
+        - {"abbr": "SU", "href": "https://media.echoinggreen.net/", "icon": "si-subsonic"}
+
+- Media Tools:
+    - Prowlarr:
+        - {"abbr": "PR", "href": "https://prowlarr.echoinggreen.net/", "icon": "si-prowlarr"}
+    - Radarr:
+        - {"abbr": "RA", "href": "https://radarr.echoinggreen.net/", "icon": "si-radarr"}
+    - Radarr 4K:
+        - {"abbr": "R4", "href": "https://radarr4k.echoinggreen.net/", "icon": "si-radarr"}
+    - Sonarr:
+        - {"abbr": "SO", "href": "https://sonarr.echoinggreen.net/", "icon": "si-sonarr"}
+    - Sonarr 4K:
+        - {"abbr": "S4", "href": "https://sonarr4k.echoinggreen.net/", "icon": "si-sonarr"}
+    - Lidarr:
+        - {"abbr": "LI", "href": "https://lidarr.echoinggreen.net/", "icon": "si-lidarr"}
+    - Bazzarr:
+        - {"abbr": "BA", "href": "https://bazarr.echoinggreen.net/"}
+    - Pinchflat:
+        - {"abbr": "PI", "href": "https://pinch.echoinggreen.net/", "icon": "si-handbrake"}
+    - SABnzbd:
+        - {"abbr": "SA", "href": "https://sab.echoinggreen.net/", "icon": "si-sabnzbd"}
+    - SABnzbd4k:
+        - {"abbr": "SA", "href": "https://sab4k.echoinggreen.net", "icon": "si-sabnzbd"}
+    - qBittorrent:
+        - {"abbr": "QB", "href": "https://qbit.echoinggreen.net", "icon": "si-qbittorrent"}
+    - Tdarr:
+        - {"abbr": "TD", "href": "https://tdarr.echoinggreen.net/", "icon": "si-tdarr"}
+    - Readarr:
+        - {"abbr": "RE", "href": "https://readarr.echoinggreen.net/", "icon": "si-readarr"}
+    - Calibre:
+        - {"abbr": "CA", "href": "https://calibre.echoinggreen.net/", "icon": "si-calibre"}
+    - Calibre-Web:
+        - {"abbr": "CW", "href": "https://calibre-web.echoinggreen.net/", "icon": "si-calibreweb"}
+    - Preroll Plus W:
+        - {"abbr": "PP", "href": "https://prpw.echoinggreen.net", "icon": "si-letterboxd"}
+    - Preroll Plus L:
+        - {"abbr": "PP", "href": "https://prpl.echoinggreen.net", "icon": "si-letterboxd"}
+    - Tracearr:
+        - {"abbr": "TR", "href": "https://tracearr.echoinggreen.net/", "icon": "si-tmdb"}
+
+- Home Automation:
+    - Home Assistant:
+        - {"abbr": "HA", "href": "https://ha.echoinggreen.net/", "icon": "si-homeassistant"}
+    - Home Bridge:
+        - {"abbr": "HB", "href": "https://hb.echoinggreen.net/", "icon": "si-homebridge"}
+    - Ring:
+        - {"abbr": "RI", "href": "https://ring.com/users/sign_in?return=account&path=%2Faccount%2Fdashboard%3Fl%3D66166a8f-0698-416a-aa59-b4dbde7c816f", "icon": "si-ring"}
+    - EcoBee:
+        - {"abbr": "EC", "href": "https://www.ecobee.com/consumerportal/index.html", "icon": "si-ecobee"}
+
+- Network:
+    - Dream Machine:
+        - {"abbr": "DM", "href": "https://udm.echoinggreen.net/", "icon": "si-unifi"}
+    - DNS PiHole1:
+        - {"abbr": "PH1", "href": "https://hole1.echoinggreen.net/admin", "icon": "si-pihole"}
+    - DNS PiHole2:
+        - {"abbr": "PH2", "href": "https://hole2.echoinggreen.net/admin", "icon": "si-pihole"}
+    - DNS PiHole3:
+        - {"abbr": "PH3", "href": "https://hole3.echoinggreen.net/admin/login", "icon": "si-pihole"}
+    - NGINX Proxy Manager:
+        - {"abbr": "NP", "href": "https://cus-proxy.echoinggreen.net/", "icon": "si-nginx"}
+    - ore-core10 switch:
+        - {"abbr": "OC", "href": "http://ore-core10g.echoinggreen.info/", "icon": "si-unifi"}
+    - ore-switch1:
+        - {"abbr": "OS", "href": "http://ore-switch1.echoinggreen.info/", "icon": "si-unifi"}
+
+- Management:
+    - Notifiarr:
+        - {"abbr": "NO", "href": "https://notifiarr.com/index.php", "icon": "si-tailext"}
+    - Authentik:
+        - {"abbr": "AU", "href": "https://auth.echoinggreen.net", "icon": "si-authentik"}
+    - Azure Portal:
+        - {"abbr": "AP", "href": "https://portal.azure.com/", "icon": "si-microsoftazure"}
+
+- Monitoring:
+    - Check MK:
+        - {"abbr": "CM", "href": "https://monitor.echoinggreen.net/db/check_mk/login.py?_origtarget=index.py", "icon": "si-checkmk"}
+    - Graylog:
+        - {"abbr": "GR", "href": "https://graylog.echoinggreen.net/", "icon": "si-graylog"}
+    - Azure Uptime Kuma:
+        - {"abbr": "AU", "href": "https://status.echoinggreen.net/dashboard", "icon": "si-uptimerobot"}
+    - Local Uptime Kuma:
+        - {"abbr": "LU", "href": "https://status-local.echoinggreen.net/dashboard", "icon": "si-uptimerobot"}
+    - Wazuh:
+        - {"abbr": "WA", "href": "https://sec.echoinggreen.net/", "icon": "si-wazuh"}
+    - Notifiarr Monitor:
+        - {"abbr": "NM", "href": "https://notifiarr.echoinggreen.net/", "icon": "si-tailext"}
+
+- Portainer:
+    - Portainer cus-dock1:
+        - {"abbr": "CD", "href": "https://cus-dock1.echoinggreen.net/", "icon": "si-portainer"}
+    - Portainer cus-dock2:
+        - {"abbr": "CD", "href": "https://cus-dock2.echoinggreen.net/", "icon": "si-portainer"}
+    - Portainer ore-dock-101-1:
+        - {"abbr": "11", "href": "https://port-101-1.echoinggreen.net/", "icon": "si-portainer"}
+    - Portainer ore-dock-101-2:
+        - {"abbr": "12", "href": "https://port-101-2.echoinggreen.net", "icon": "si-portainer"}
+    - Portainer ore-dock-101-3:
+        - {"abbr": "13", "href": "https://port-101-3.echoinggreen.net/", "icon": "si-portainer"}
+    - Portainer ore-dock-101-10:
+        - {"abbr": "11", "href": "https://port-101-10.echoinggreen.net", "icon": "si-portainer"}
+    - Portainer ore-dock-101-11:
+        - {"abbr": "11", "href": "https://port-101-11.echoinggreen.net", "icon": "si-portainer"}
+    - Portainer ore-dock-102-1:
+        - {"abbr": "11", "href": "https://port-102-1.echoinggreen.net/", "icon": "si-portainer"}
+    - Portainer ore-dock-110-1:
+        - {"abbr": "11", "href": "https://port-110-1.echoinggreen.net", "icon": "si-portainer"}
+    - Portainer ore-dock-110-2:
+        - {"abbr": "12", "href": "https://port-110-2.echoinggreen.net", "icon": "si-portainer"}
+    - Portainer ore-dock-110-3:
+        - {"abbr": "13", "href": "https://port-110-3.echoinggreen.net", "icon": "si-portainer"}
+    - Portainer ore-dock-110-4:
+        - {"abbr": "14", "href": "https://port-110-4.echoinggreen.net", "icon": "si-portainer"}
+    - Portainer ore-dock-110-5:
+        - {"abbr": "15", "href": "https://port-110-5.echoinggreen.net", "icon": "si-portainer"}
+    - Portainer ore-dock-110-6:
+        - {"abbr": "16", "href": "https://port-110-6.echoinggreen.net", "icon": "si-portainer"}
+    - Portainer ore-dock-110-7:
+        - {"abbr": "17", "href": "https://port-110-7.echoinggreen.net", "icon": "si-portainer"}
+    - Portainer ore-dock-110-8:
+        - {"abbr": "18", "href": "https://port-110-8.echoinggreen.net", "icon": "si-portainer"}
+    - Portainer ore-dock-110-9:
+        - {"abbr": "19", "href": "https://port-110-9.echoinggreen.net", "icon": "si-portainer"}
+    - Portainer ore-dock-110-10:
+        - {"abbr": "11", "href": "https://port-110-10.echoinggreen.net", "icon": "si-portainer"}
+    - Portainer for ore-dock-103-1:
+        - {"abbr": "11", "href": "https://port-103-1.echoinggreen.net/", "icon": "si-portainer"}
+
+- VMware:
+    - vCenter:
+        - {"abbr": "VC", "href": "https://vcenter.echoinggreen.net/ui", "icon": "si-vmware"}
+    - ore-mgmt1 Console:
+        - {"abbr": "OM", "href": "https://ore-mgmt1.echoinggreen.info/ui/", "icon": "si-vmware"}
+    - ore-vh1 Console:
+        - {"abbr": "OV", "href": "https://ore-vh1.echoinggreen.info/ui/", "icon": "si-vmware"}
+    - ore-vh2 Console:
+        - {"abbr": "OV", "href": "https://ore-vh2.echoinggreen.info/ui/", "icon": "si-vmware"}
+    - ore-vc1 Console:
+        - {"abbr": "OV", "href": "https://ore-vc1.echoinggreen.info:5480/", "icon": "si-vmware"}
+
+- Storage:
+    - TrueNas Scale:
+        - {"abbr": "TS", "href": "https://storage.echoinggreen.net", "icon": "si-truenas"}
+
+- Watchers:
+    - Dock Watcher cus-dock1:
+        - {"abbr": "DW", "href": "https://cus-dock1watch.echoinggreen.net/", "icon": "si-cockpit"}
+
+- General:
+    - Remote Access:
+        - {"abbr": "RA", "href": "https://portal.echoinggreen.net", "icon": "si-apacheguacamole"}
+    - Bitbucket:
+        - {"abbr": "BI", "href": "https://bitbucket.org/collc1/workspace/repositories/", "icon": "si-bitbucket"}
+    - Confluence:
+        - {"abbr": "CO", "href": "https://collc.atlassian.net/wiki/home", "icon": "si-confluence"}
+    - Jira:
+        - {"abbr": "JI", "href": "https://collc.atlassian.net/jira/projects", "icon": "si-jira"}
