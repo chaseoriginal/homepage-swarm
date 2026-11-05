@@ -2,11 +2,11 @@ services:
   homepage:
     image: ghcr.io/gethomepage/homepage:latest
     container_name: homepage-swarm
-    ports:
-      - target: 3000
-        published: 3000
-        protocol: tcp
-        mode: host
+    # Host networking, not overlay. The container's egress then uses the node's
+    # own IP (10.77.110.10), which is inside NPM's "Private Site Access" ACL.
+    # On the overlay subnet (10.0.12.x) every proxied siteMonitor would be
+    # answered 403 by NPM's access list.
+    network_mode: host
     volumes:
       - homepage-swarm_config:/app/config
       - /var/run/docker.sock:/var/run/docker.sock:ro
