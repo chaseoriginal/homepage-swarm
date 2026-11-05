@@ -1,0 +1,38 @@
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage-swarm
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+        mode: host
+    volumes:
+      - homepage-swarm_config:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    environment:
+      - TZ=America/Chicago
+      - HOMEPAGE_ALLOWED_HOSTS=${HOMEPAGE_ALLOWED_HOSTS}
+      - HOMEPAGE_AUTH_ENABLED=${HOMEPAGE_AUTH_ENABLED}
+      - HOMEPAGE_AUTH_SECRET=${HOMEPAGE_AUTH_SECRET}
+      - HOMEPAGE_AUTH_PASSWORD=${HOMEPAGE_AUTH_PASSWORD}
+      - HOMEPAGE_EXTERNAL_URL=${HOMEPAGE_EXTERNAL_URL}
+    deploy:
+      placement:
+        constraints:
+          - node.hostname==ore-dock-110-1
+      restart_policy:
+        condition: on-failure
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - "fetch('http://127.0.0.1:3000/api/healthcheck').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"
+      interval: 30s
+      timeout: 10s
+      start_period: 40s
+      retries: 3
+volumes:
+  homepage-swarm_config:
+    name: homepage-swarm_config

@@ -1,0 +1,9 @@
+- Infrastructure:
+    - Fleet inventory:
+        - href: https://github.com/chaseoriginal
+          description: Git repos backing the fleet stacks
+      icon: github
+    - Portainer:
+        - href: https://10.77.110.10:9443
+          description: swarm manager, all three 110 swarms
+      icon: portainer

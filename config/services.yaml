@@ -1,0 +1,68 @@
+- Media:
+    - Plex:
+        href: http://10.77.110.10:32400
+        siteMonitor: http://10.77.110.10:32400/web
+        description: myplex (swarm 110-1)
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/plex.png
+        siteMonitorType: http
+    - Organizr:
+        href: http://10.77.110.80
+        siteMonitor: http://10.77.110.80
+        description: organize (swarm 110-7)
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/organizr.png
+        siteMonitorType: http
+    - Jellyfin:
+        href: http://10.77.110.50:8096
+        siteMonitor: http://10.77.110.50:8096
+        description: swarm 110-4
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/jellyfin.png
+        siteMonitorType: http
+- Books:
+    - Calibre-Web:
+        href: http://10.77.110.10:8083
+        siteMonitor: http://10.77.110.10:8083
+        description: swarm 110-1
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/calibre-web.png
+        siteMonitorType: http
+- Servarr:
+    - Radarr:
+        href: http://10.77.110.80:7878
+        siteMonitor: http://10.77.110.80:7878
+        description: radarr4k (swarm 110-7)
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/radarr.png
+        siteMonitorType: http
+    - Sonarr:
+        href: http://10.77.110.80:8989
+        siteMonitor: http://10.77.110.80:8989
+        description: sonarr4k (swarm 110-7)
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/sonarr.png
+        siteMonitorType: http
+    - Prowlarr:
+        href: http://10.77.110.80:9696
+        siteMonitor: http://10.77.110.80:9696
+        description: swarm 110-7
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/prowlarr.png
+        siteMonitorType: http
+    - Bazarr:
+        href: http://10.77.110.80:6767
+        siteMonitor: http://10.77.110.80:6767
+        description: swarm 110-7
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/bazarr.png
+        siteMonitorType: http
+    - Seerr:
+        href: http://10.77.110.70:5055
+        siteMonitor: http://10.77.110.70:5055
+        description: swarm 110-7
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/overseerr.png
+        siteMonitorType: http
+- Infrastructure:
+    - Portainer:
+        href: https://10.77.110.10:9443
+        description: swarm 110-1
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/portainer.png
+    - Homepage:
+        href: http://10.77.110.10:3000
+        siteMonitor: http://10.77.110.10:3000
+        description: this dashboard
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/homepage.png
+        siteMonitorType: http
