@@ -1,6 +1,6 @@
 services:
   homepage:
-    image: ghcr.io/gethomepage/homepage:latest
+    image: v2.8.0
     container_name: homepage-swarm
     # Port published on the node itself (mode: host). The container stays on the
     # swarm overlay -- Portainer's swarm deployer IGNORES network_mode (logged
